@@ -22,7 +22,7 @@ core Package URL specification. See also a candidate list further down.
 Definitions can also include types reserved for future use.
 
 See also [https://github.com/package-url/purl-spec](https://github.com/package-url/purl-spec) and
-[PURL-SPECIFICATION.rst](PURL-SPECIFICATION.rst) for the Package URL
+[PURL_SPECIFICATION.md](PURL_SPECIFICATION.md) for the Package URL
 specification.
 
 ## Known `purl` types

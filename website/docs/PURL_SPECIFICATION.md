@@ -20,7 +20,7 @@ Such a package URL is useful to reliably reference the same software
 package using a simple and expressive syntax and conventions based on
 familiar URLs.
 
-See [PURL-TYPES.rst](PURL-TYPES.rst) for known type definitions.
+See [PURL_TYPES.md](PURL_TYPES.md) for known type definitions.
 
 Check also this short `purl` presentation (with video) at FOSDEM 2018
 [https://fosdem.org/2018/schedule/event/purl/](https://fosdem.org/2018/schedule/event/purl/) for an overview.
@@ -386,7 +386,7 @@ To parse a `purl` string in its components:
 ## Known `purl` types
 
 There are several known `purl` package type definitions tracked in the
-separate [PURL-TYPES.rst](PURL-TYPES.rst) document.
+separate [PURL_TYPES.md](PURL_TYPES.md) document.
 
 ## Known `qualifiers` key/value pairs
 
@@ -404,7 +404,7 @@ With this warning, the known `key` and `value` defined here are valid
 for use in all package types:
 
 - `vers` allows the specification of a version range. The value MUST
-  adhere to the [Version Range Specification](VERSION-RANGE-SPEC.rst).
+  adhere to the Version Range Specification.
   This qualifier is mutually exclusive with the `version` component. For
   example:
 
